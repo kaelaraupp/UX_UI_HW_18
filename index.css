@@ -97,7 +97,7 @@ div.CenteredLeftAlignedText {
 }
 
 section.mySkills {
-    height: 430px;
+    /* height: 430px; */
     background-color: rgb(224, 224, 224);
 }
 
@@ -248,4 +248,15 @@ ul {
     padding-right: 15px;
 }
 
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        flex-flow: column;
+    }
+
+    .workGrid {
+        grid-template-columns: 1fr;
+        margin: 0;
+        text-align: center;
+    }
+}
 
