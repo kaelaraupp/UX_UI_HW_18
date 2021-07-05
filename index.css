@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    margin: 0px;
+}
+#navbar {
+    list-style-type: none;
+    background: #2b2b2c;
+    margin: 0 0 0 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
+}
+
+#navbar > li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    color: white;
+    font-family: Montserrat;
+}
+
+#navbar > li:hover {
+    color: #ffaacb
+
+}
+
+
+.logo {
+    font-family: Pacifico, cursive;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 15px;
+    font-size: 27px;
+    color: #FFFFFF;
+    display: block;
+}
+
+li.logoList {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1.HomeHeader {
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #000000
+}
+
+p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+section {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+div.LeftTxt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div.CenteredLeftAlignedText {
+    display: inline-block;
+    text-align: left;
+    max-width: 450px;
+}
+
+.HomeRow {
+    display:flex;
+    max-height: 470px;
+}
+
+.HomeColumn {
+    flex: 50%;
+    min-height: 100%;
+}
+
+.HomeProject {
+    padding-top: 30px;
+}
+
+section.HomeProject {
+    height: 500px;
+    background-color: rgb(224, 224, 224);
+}
+
+.mySkills {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+
+.ImgColumn {
+    overflow: hidden;
+    min-width: 50%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%
+}
+
+button {
+    border-radius: 2em;
+    margin-top: 40px;
+    padding: 15px;
+    font-family: Montserrat;
+    font-weight: 500;
+    background: #3B36A6;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+footer {
+    background: #2b2b2c;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer > li {
+    display: inline-block;
+    font-family: Montserrat;
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.footerHeading{
+    font-family: Montserrat;
+    font-size: 20px;
+    color: white;
+}
+
+ul {
+    padding: 0px;
+}
+
+.ConnectHome {
+    font-size: 16px;
+    color: white;
+    justify-content: center;
+}
+
+.social > li{
+    display: inline-block;
+    color: white;
+    font-size: 11px;
+    font-family: Montserrat;
+    justify-content: center;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
