@@ -56,7 +56,7 @@ h1.HomeHeader {
     color: #000000
 }
 
-p {
+p.title {
     font-family: Montserrat;
     font-weight: 400;
     font-size: 25px;
@@ -92,19 +92,45 @@ div.CenteredLeftAlignedText {
     min-height: 100%;
 }
 
-.HomeProject {
+.mySkills {
     padding-top: 30px;
 }
 
-section.HomeProject {
+section.mySkills {
     height: 500px;
     background-color: rgb(224, 224, 224);
 }
 
-.mySkills {
+.SkillsTitle {
     text-align: center;
     font-family: Montserrat;
     font-size: 24px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: Montserrat;
+    padding-top: 50px;
+}
+
+.flexContainer img {
+    width: 20%;
+}
+
+.flexElement {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 25%;
+}
+
+.flexElement h3 {
+    font-size: 18px;
+}
+
+.flexElement p {
+    font-size: 14px;
 }
 
 .ImgColumn {
