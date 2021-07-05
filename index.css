@@ -97,7 +97,7 @@ div.CenteredLeftAlignedText {
 }
 
 section.mySkills {
-    height: 500px;
+    height: 430px;
     background-color: rgb(224, 224, 224);
 }
 
@@ -131,6 +131,52 @@ section.mySkills {
 
 .flexElement p {
     font-size: 14px;
+}
+
+.myWork {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.myWork h3 {
+    font-family: Montserrat;
+    font-size: 13px;
+    text-decoration: underline;
+    color:#3B36A6;
+    font-weight: 500;
+    text-align: center;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-left: 200px;
+    margin-right: 200px;
+    column-gap: 25px;
+    row-gap: 35px;
+    padding-bottom: 25px;
+}
+
+.workGrid h4 {
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+.workGrid p {
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.workGrid button {
+    border-radius: 2em;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: Montserrat;
+    font-weight: 500;
+    background: #3B36A6;
+    border: none;
+    font-size: 11px;
+    color: white;
 }
 
 .ImgColumn {
@@ -188,6 +234,7 @@ ul {
     font-size: 16px;
     color: white;
     justify-content: center;
+    font-family: Montserrat;
 }
 
 .social > li{
@@ -200,4 +247,5 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 
